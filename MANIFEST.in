@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erp_cmsmanagement *.css
+recursive-include erp_cmsmanagement *.csv
+recursive-include erp_cmsmanagement *.html
+recursive-include erp_cmsmanagement *.ico
+recursive-include erp_cmsmanagement *.js
+recursive-include erp_cmsmanagement *.json
+recursive-include erp_cmsmanagement *.md
+recursive-include erp_cmsmanagement *.png
+recursive-include erp_cmsmanagement *.py
+recursive-include erp_cmsmanagement *.svg
+recursive-include erp_cmsmanagement *.txt
+recursive-exclude erp_cmsmanagement *.pyc
