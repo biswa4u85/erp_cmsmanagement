@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "TP:-.###",
+ "creation": "2022-09-13 16:05:58.546296",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sticker",
+  "image",
+  "hoverimage",
+  "foodname",
+  "name1",
+  "icon",
+  "company",
+  "price"
+ ],
+ "fields": [
+  {
+   "fieldname": "sticker",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Sticker",
+   "options": "Stickername"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach Image",
+   "label": "Image"
+  },
+  {
+   "fieldname": "hoverimage",
+   "fieldtype": "Attach Image",
+   "label": "HoverImage"
+  },
+  {
+   "fieldname": "foodname",
+   "fieldtype": "Data",
+   "label": "FoodName"
+  },
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name"
+  },
+  {
+   "fieldname": "icon",
+   "fieldtype": "Rating",
+   "label": "Icon"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Company",
+   "options": "CompanyName"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Data",
+   "label": "Price"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-09-13 16:23:35.648621",
+ "modified_by": "Administrator",
+ "module": "Erp Cms Management",
+ "name": "TexrProdect",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
