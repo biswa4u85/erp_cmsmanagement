@@ -7,11 +7,17 @@
  "engine": "InnoDB",
  "field_order": [
   "logo",
+  "meta_title",
+  "meta_description",
   "email",
   "phone",
   "address",
+  "full_address",
+  "address_link",
   "facebook",
-  "twiter"
+  "twiter",
+  "linkedin",
+  "instagram"
  ],
  "fields": [
   {
@@ -30,11 +36,6 @@
    "label": "Phone"
   },
   {
-   "fieldname": "address",
-   "fieldtype": "Small Text",
-   "label": "Address"
-  },
-  {
    "fieldname": "facebook",
    "fieldtype": "Data",
    "label": "Facebook"
@@ -43,12 +44,47 @@
    "fieldname": "twiter",
    "fieldtype": "Data",
    "label": "Twiter"
+  },
+  {
+   "fieldname": "full_address",
+   "fieldtype": "Small Text",
+   "label": "Full Address"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Data",
+   "label": "Address"
+  },
+  {
+   "fieldname": "address_link",
+   "fieldtype": "Data",
+   "label": "Address Link"
+  },
+  {
+   "fieldname": "linkedin",
+   "fieldtype": "Data",
+   "label": "Linkedin"
+  },
+  {
+   "fieldname": "instagram",
+   "fieldtype": "Data",
+   "label": "Instagram"
+  },
+  {
+   "fieldname": "meta_title",
+   "fieldtype": "Data",
+   "label": "Meta Title"
+  },
+  {
+   "fieldname": "meta_description",
+   "fieldtype": "Small Text",
+   "label": "Meta Description"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2022-08-30 12:17:43.076574",
+ "modified": "2022-10-08 07:00:07.056377",
  "modified_by": "Administrator",
  "module": "Erp Cms Management",
  "name": "Home Page Setting",
