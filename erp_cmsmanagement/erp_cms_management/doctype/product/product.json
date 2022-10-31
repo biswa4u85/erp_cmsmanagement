@@ -9,8 +9,20 @@
  "engine": "InnoDB",
  "field_order": [
   "title",
+  "sub_title",
+  "banner",
+  "overview",
+  "technology",
+  "delivering_results",
+  "client_success",
+  "case_studies",
+  "contact_us",
+  "content",
   "published",
-  "route"
+  "route",
+  "meta_tags_section",
+  "meta_title",
+  "meta_description"
  ],
  "fields": [
   {
@@ -35,6 +47,66 @@
    "label": "Route",
    "read_only": 1,
    "unique": 1
+  },
+  {
+   "fieldname": "meta_tags_section",
+   "fieldtype": "Section Break",
+   "label": "Meta Tags"
+  },
+  {
+   "fieldname": "meta_title",
+   "fieldtype": "Data",
+   "label": "Meta Title"
+  },
+  {
+   "fieldname": "meta_description",
+   "fieldtype": "Small Text",
+   "label": "Meta Description"
+  },
+  {
+   "fieldname": "sub_title",
+   "fieldtype": "Small Text",
+   "label": "Sub Title"
+  },
+  {
+   "fieldname": "banner",
+   "fieldtype": "Attach",
+   "label": "Banner"
+  },
+  {
+   "fieldname": "content",
+   "fieldtype": "HTML Editor",
+   "label": "Content"
+  },
+  {
+   "fieldname": "overview",
+   "fieldtype": "HTML Editor",
+   "label": "Overview"
+  },
+  {
+   "fieldname": "technology",
+   "fieldtype": "HTML Editor",
+   "label": "Technology"
+  },
+  {
+   "fieldname": "delivering_results",
+   "fieldtype": "HTML Editor",
+   "label": "Delivering Results"
+  },
+  {
+   "fieldname": "client_success",
+   "fieldtype": "HTML Editor",
+   "label": "Client Success"
+  },
+  {
+   "fieldname": "case_studies",
+   "fieldtype": "HTML Editor",
+   "label": "Case Studies"
+  },
+  {
+   "fieldname": "contact_us",
+   "fieldtype": "HTML Editor",
+   "label": "Contact Us"
   }
  ],
  "has_web_view": 1,
@@ -42,7 +114,7 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "published",
  "links": [],
- "modified": "2022-10-08 06:38:28.451748",
+ "modified": "2022-10-26 13:22:32.654727",
  "modified_by": "Administrator",
  "module": "Erp Cms Management",
  "name": "Product",

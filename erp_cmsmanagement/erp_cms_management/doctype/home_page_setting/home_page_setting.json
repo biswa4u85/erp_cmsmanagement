@@ -7,8 +7,6 @@
  "engine": "InnoDB",
  "field_order": [
   "logo",
-  "meta_title",
-  "meta_description",
   "email",
   "phone",
   "address",
@@ -17,7 +15,10 @@
   "facebook",
   "twiter",
   "linkedin",
-  "instagram"
+  "instagram",
+  "meta_tags_section",
+  "meta_title",
+  "meta_description"
  ],
  "fields": [
   {
@@ -79,12 +80,17 @@
    "fieldname": "meta_description",
    "fieldtype": "Small Text",
    "label": "Meta Description"
+  },
+  {
+   "fieldname": "meta_tags_section",
+   "fieldtype": "Section Break",
+   "label": "Meta Tags"
   }
  ],
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2022-10-08 07:00:07.056377",
+ "modified": "2022-10-08 15:07:09.079489",
  "modified_by": "Administrator",
  "module": "Erp Cms Management",
  "name": "Home Page Setting",
